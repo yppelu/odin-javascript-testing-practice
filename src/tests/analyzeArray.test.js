@@ -1,4 +1,4 @@
-import analyzeArray from "./analyzeArray";
+import analyzeArray from "../scripts/analyzeArray";
 
 test('Takes an array of numbers and returns a required object', () => {
   const array = [1, 8, 3, 4, 2, 6];

@@ -1,4 +1,4 @@
-import caesarCipher from "./caesarCipher";
+import caesarCipher from "../scripts/caesarCipher";
 
 test('Encodes a word', () =>
   expect(caesarCipher('string', 2))

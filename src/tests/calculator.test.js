@@ -1,4 +1,4 @@
-import calculator from "./calculator";
+import calculator from "../scripts/calculator";
 
 test('Add methods does not exist', () =>
   expect(calculator.add).toBeDefined());

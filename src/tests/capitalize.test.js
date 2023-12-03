@@ -1,4 +1,4 @@
-import capitalize from "./capitalize";
+import capitalize from "../scripts/capitalize";
 
 test('Capitalize lowercase string', () =>
   expect(capitalize('lowercase string')).toBe('Lowercase string'));
